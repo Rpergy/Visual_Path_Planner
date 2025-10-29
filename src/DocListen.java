@@ -1,6 +1,5 @@
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import java.awt.*;
 
 public class DocListen implements DocumentListener {
     public DocListen() {}

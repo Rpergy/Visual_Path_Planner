@@ -1,12 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
-import java.util.*;
 import java.io.*;
 import javax.imageio.ImageIO;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import java.awt.image.BufferedImage;
-import javax.swing.text.AbstractDocument;
 import javax.swing.Timer;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -67,9 +62,9 @@ public class window {
 
         Image drawImage, editImage, removeImage;
         try {
-            drawImage = ImageIO.read(new File("C:/Users/rperg/IdeaProjects/FtcGui/src/draw.png"));
-            editImage = ImageIO.read(new File("C:/Users/rperg/IdeaProjects/FtcGui/src/edit.png"));
-            removeImage = ImageIO.read(new File("C:/Users/rperg/IdeaProjects/FtcGui/src/remove.png"));
+            drawImage = ImageIO.read(new File("C:/Users/rperg/IdeaProjects/FtcGui/src/images/draw.png"));
+            editImage = ImageIO.read(new File("C:/Users/rperg/IdeaProjects/FtcGui/src/images/edit.png"));
+            removeImage = ImageIO.read(new File("C:/Users/rperg/IdeaProjects/FtcGui/src/images/remove.png"));
 
             editButton = new JButton(new ImageIcon(editImage));
             drawButton = new JButton(new ImageIcon(drawImage));

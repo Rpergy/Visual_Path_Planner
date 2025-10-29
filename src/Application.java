@@ -33,8 +33,8 @@ public class Application {
         points = new ArrayList<>();
 
         try {
-            robot = ImageIO.read(new File("C:/Users/rperg/IdeaProjects/FtcGui/src/robot.png"));
-            field = ImageIO.read(new File("C:/Users/rperg/IdeaProjects/FtcGui/src/field.png"));
+            robot = ImageIO.read(new File("C:/Users/rperg/IdeaProjects/FtcGui/src/images/robot.png"));
+            field = ImageIO.read(new File("C:/Users/rperg/IdeaProjects/FtcGui/src/images/field.png"));
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
